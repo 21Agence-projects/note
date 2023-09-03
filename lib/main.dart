@@ -13,12 +13,13 @@ void main() {
       body: Column(
         children: [
           Text("Welcome Flutter"),
-          // Image(image: NetworkImage("https://plus.unsplash.com/premium_photo-1674831527054-f8d0a89e368d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80")),
+          // Image(image: NetworkImage("https://i.pinimg.com/originals/d4/8a/ac/d48aacdb727b0aaf15fbab89d4723a40.gif")),
           Center(
-            child: Image.asset(
-              'lib/assets/fail.png',
-              // fit: BoxFit.fill,
-            ),
+            // child: Image.asset(
+            //   'lib/assets/141414.gif',
+            //   // fit: BoxFit.fill,
+            // ),
+            child: Image(image:  AssetImage('lib/assets/141414.gif'))
           )
         ],
       ),
